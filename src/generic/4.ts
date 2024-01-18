@@ -2,7 +2,7 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 interface ComponentProps {
-  title: string; // або інші властивості, які вам потрібні
+  title: string;
 }
 
 class Component<T extends ComponentProps> {
